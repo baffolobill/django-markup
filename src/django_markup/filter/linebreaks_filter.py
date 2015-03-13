@@ -1,5 +1,7 @@
 from django.template.defaultfilters import linebreaks
+
 from django_markup.filter import MarkupFilter
+
 
 class LinebreaksMarkupFilter(MarkupFilter):
     """

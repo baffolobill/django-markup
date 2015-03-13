@@ -1,5 +1,6 @@
 from django_markup.filter import MarkupFilter
 
+
 class SmartyPantsMarkupFilter(MarkupFilter):
     title = 'SmartyPants'
 

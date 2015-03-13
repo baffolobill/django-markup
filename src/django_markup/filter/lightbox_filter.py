@@ -1,5 +1,6 @@
 from django_markup.filter import MarkupFilter
 
+
 class LightboxMarkupFilter(MarkupFilter):
     '''Add's a lightbox attributes to links that have images in it's target'''
     title = 'Lightbox Attribute'
